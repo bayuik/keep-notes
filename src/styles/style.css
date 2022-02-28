@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eee;
+}
+
+header {
+  background-color: #f5ba13;
+  display: fixed;
+  top: 0;
+  padding: 20px;
+  color: white;
+  font-family: "McLaren", cursive;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+
+.card h1 {
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  width: 100vw;
+  margin-bottom: 20px;
+  bottom: 0;
+}
