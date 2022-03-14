@@ -1,10 +1,11 @@
 import React from "react";
 
-const Note = ({ title, content }) => {
+const Note = ({ title, content, id, deleteNote }) => {
   return (
-    <div className="card">
+    <div className="note">
       <h1>{title}</h1>
       <p>{content}</p>
+      <button onClick={() => deleteNote(id)}>DELETE</button>
     </div>
   );
 };
